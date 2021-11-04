@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="Calc.css">
+    <script src="./Calc.js"></script>
+</head>
+
+<body>
+    <section>
+
+
+        <div class="menubar">.</div>
+        <div class="menu">
+
+            
+            <ul style="list-style: none;">
+                <li style="list-style-type: none;"><a href="file:///C:/Users/interclick/Desktop/Pastas/Estudos%20-%20Programa%C3%A7%C3%A3o/Calculadora%20Javascript/inicio.html">Início</a></li><br>
+                <li style="list-style-type: none;"><a href="file:///C:/Users/interclick/Desktop/Pastas/Estudos%20-%20Programa%C3%A7%C3%A3o/Calculadora%20Javascript/Calc.html">Calculadora</a></li><br>
+                <li style="list-style-type: none;"><a href="#">Jogo da Velha</a></li><br>
+                <li style="list-style-type: none;"><a href="file:///C:/Users/interclick/Desktop/Pastas/Estudos%20-%20Programa%C3%A7%C3%A3o/Calculadora%20Javascript/Adivinha%20o%20numero.html">Adivinhe numero</a></li><br>
+            </ul>
+        
+        </div>
+	<div>
+		<header id="screen"></header>
+		<table>
+		
+      			<tbody>
+				<tr class="orange">
+					<td onclick="clearScr()">AC</td>
+          				<td onclick="sendNum('*0.01')">%</td>
+          				<td onclick="sendNum('/')">/</td>
+				</tr>
+				<tr class="orange">
+					<td onclick="sendNum('+')">+</td>
+					<td onclick="sendNum('-')">-</td>
+					<td onclick="sendNum('*')">x</td>
+				</tr>
+				<tr>
+			    		<td onclick="sendNum('7')">7</td>
+			    		<td onclick="sendNum('8')">8</td>
+			    		<td onclick="sendNum('9')">9</td>
+				</tr>
+				<tr>
+					<td onclick="sendNum('4')">4</td>
+					<td onclick="sendNum('5')">5</td>
+					<td onclick="sendNum('6')">6</td>
+				</tr>
+				<tr>
+      					<td onclick="sendNum('1')">1</td>
+					<td onclick="sendNum('2')">2</td>
+					<td onclick="sendNum('3')">3</td>
+				</tr>
+				<tr>
+      					<td onclick="sendNum('.')">.</td>
+					<td onclick="sendNum('0')">0</td>
+					<td onclick="equalTo()">=</td>
+				</tr>	
+			</tbody>
+		</table>
+	</div>
+</section>
+</body>
+</html>
